@@ -1,3 +1,4 @@
+# 재귀 연습 중
 def fibonacci(n):
     if n == 0:
         return 0
