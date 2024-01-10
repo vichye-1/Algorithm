@@ -7,4 +7,8 @@ class Solution:
                 answer += trimS[i] + " "
         return answer[:-1]
 
-# follow up 만족 못 시킴(공간 복잡도 O(1) 만족 못 함)
+
+#2번째 풀이 (24. 1. 10. 수, 5분)
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        return " ".join(map(str, s.split()[::-1]))
